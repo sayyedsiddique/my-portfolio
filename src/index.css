@@ -15,7 +15,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
   --black-color: #242424;
   --white-color: #242424;
   font-synthesis: none;
@@ -36,6 +36,10 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: var(--black-color);
+}
+
+.first-name-color{
+  color: #00f260
 }
 
 /* h3,p,span{

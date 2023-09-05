@@ -1,14 +1,11 @@
-
-import Routing from './routes'
-
+import Routing from "./routes";
 
 function App() {
-
   return (
-    <>
-    <Routing />
-    </>
-  )
+    <div className="bg-gradient-to-r from-green to-blue-400">
+      <Routing />
+    </div>
+  );
 }
 
-export default App
+export default App;
