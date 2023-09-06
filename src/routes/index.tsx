@@ -6,6 +6,8 @@ const Routing: React.FC = () => {
   return (
     <Routes>
         <Route path='/' element={<MainPortfolio />} />
+        <Route path='/projects' element={<MainPortfolio />} />
+        <Route path='/resume' element={<MainPortfolio />} />
     </Routes>
   )
 }
