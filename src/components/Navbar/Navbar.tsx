@@ -11,8 +11,6 @@ const Navbar = () => {
 const location = useLocation()
   const [activeItem, setActiveItem] = useState<string>("");
 
-  console.log("location ", location?.pathname)
-
 //   when user type route directly into url it should be update
   useEffect(() => {
     if(location?.pathname === "/") setActiveItem("About")

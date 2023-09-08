@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Navbar from "../components/Navbar/Navbar";
-import Resume from "./Resume/Resume";
+import { Outlet } from "react-router-dom";
 
 const MainPortfolio: React.FC = () => {
   return (
@@ -11,7 +11,9 @@ const MainPortfolio: React.FC = () => {
       </div>
       <div className="flex flex-col col-span-12 bg-white lg:col-span-9 rounded-2xl">
         <Navbar />
-        <Resume />
+        {/* <Resume /> */}
+        {/* {location?.pathname === "/" && <About />} */}
+        <Outlet />
       </div>
     </div>
   );
