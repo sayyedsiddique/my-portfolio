@@ -18,6 +18,7 @@
   /* background-color: #242424; */
   --black-color: #242424;
   --white-color: #242424;
+  --light-black: #354358;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +30,7 @@
 body {
   /* background-color: var(--bg-color); */
   font-family: sans-serif;
-  color: var(--black-color);
+  color: var(--light-black);
 }
 
 h1 {

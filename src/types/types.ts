@@ -5,3 +5,10 @@ export interface Iservices {
     about: string,
     Icon: IconType,
 }
+
+// for resume
+export interface ISkill {
+    name: string,
+    level: string,
+    Icon: IconType,
+}
