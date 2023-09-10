@@ -1,5 +1,5 @@
 import { RiComputerLine } from "react-icons/ri";
-import { ISkill, Iservices } from "../types/types";
+import { IProjects, ISkill, Iservices } from "../types/types";
 import { BsCircleFill } from "react-icons/bs";
 
 export const services: Iservices[] = [
@@ -55,4 +55,67 @@ export const tools: ISkill[] = [
   { name: "Photoshop", level: "40%", Icon: BsCircleFill },
   { name: "Framer", level: "30%", Icon: BsCircleFill },
   { name: "NPM", level: "70%", Icon: BsCircleFill },
+];
+
+export const projects: IProjects[] = [
+  {
+    name: "COVID Tracker",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
+  {
+    name: "CSV File Reader",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
+  {
+    name: "TODO App",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
+  {
+    name: "Amazon Clone",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
+  {
+    name: "Zaps Marketing",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
+  {
+    name: "eHadaya",
+    desscription:
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl: "https://github.com/sayyedsiddique",
+    category: ["react"],
+    keyTechs: ["React", "Chart.js", "Material UI"],
+  },
 ];
