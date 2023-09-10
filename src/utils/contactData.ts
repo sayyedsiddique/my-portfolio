@@ -75,7 +75,7 @@ export const projects: IProjects[] = [
     imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "https://github.com/sayyedsiddique",
-    category: ["react"],
+    category: ["mongo"],
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
@@ -85,7 +85,7 @@ export const projects: IProjects[] = [
     imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "https://github.com/sayyedsiddique",
-    category: ["react"],
+    category: ["typescript"],
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
@@ -105,7 +105,7 @@ export const projects: IProjects[] = [
     imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "https://github.com/sayyedsiddique",
-    category: ["react"],
+    category: ["typescript"],
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {

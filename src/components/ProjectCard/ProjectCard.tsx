@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     imagePath,
     deployedUrl,
     githubUrl,
-    category,
+    // category,
     keyTechs,
   },
 }) => {
