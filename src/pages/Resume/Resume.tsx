@@ -1,13 +1,21 @@
 import React from "react";
 import { languages, tools } from "../../utils/contactData";
 import Bar from "../../components/Bar/Bar";
+import {motion} from "framer-motion"
+import { fadeUpIn } from "../../animations";
 
 const Resume: React.FC = () => {
+
+  const variant = {
+    initial: {opacity: 0, y: 60},
+    animate: {opacity: 1, y: 0}
+  }
+  
   return (
     <div className="px-4 py-2 ">
       {/* Education & Exp */}
       <div className="grid gap-6 md:grid-cols-2">
-        <div>
+        <motion.div variants={fadeUpIn} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
@@ -20,9 +28,9 @@ const Resume: React.FC = () => {
               Voluptates, deserunt perferendis.
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div variants={fadeUpIn} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
@@ -35,7 +43,7 @@ const Resume: React.FC = () => {
               Voluptates, deserunt perferendis.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Languanges & Tools */}
