@@ -5,11 +5,6 @@ import {motion} from "framer-motion"
 import { fadeUpIn } from "../../animations";
 
 const Resume: React.FC = () => {
-
-  const variant = {
-    initial: {opacity: 0, y: 60},
-    animate: {opacity: 1, y: 0}
-  }
   
   return (
     <div className="px-4 py-2 ">
