@@ -3,6 +3,8 @@ import { IProjects } from "../../types/types";
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeUpIn, stagger } from "../../animations";
 
 type ProjectCardProps = {
   project: IProjects;
@@ -32,10 +34,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <p className="my-2 text-center">{name}</p>
 
       {showDetails === true && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+        <motion.div
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+          className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100"
+        >
           <div>
+            <motion.div variants={fadeUpIn}>
             <img src={imagePath} alt={name} />
-            <div className="flex justify-center my-4 space-x-3">
+            </motion.div>
+           
+            <motion.div variants={fadeUpIn} className="flex justify-center my-4 space-x-3">
               <a
                 href={githubUrl}
                 className="flex items-center px-4 py-2 space-x-3 bg-gray-200 dark:bg-dark-200"
@@ -66,14 +76,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 </IconContext.Provider>
                 <span>Project</span>
               </a>
-            </div>
+            </motion.div>
           </div>
 
           {/* keywords section */}
-          <div>
-            <h2 className="mb-3 text-xl font-medium md:text-2xl">{name}</h2>
-            <h3 className="mb-3 font-medium">{desscription}</h3>
-            <div className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+          <motion.div variants={stagger}>
+            <motion.h2  variants={fadeUpIn} className="mb-3 text-xl font-medium md:text-2xl">{name}</motion.h2>
+            <motion.h3 variants={fadeUpIn}  className="mb-3 font-medium">{desscription}</motion.h3>
+            <motion.div variants={fadeUpIn}  className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
               {keyTechs?.map((item) => {
                 return (
                   <span
@@ -84,8 +94,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   </span>
                 );
               })}
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           <button
             className="absolute py-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
@@ -93,7 +103,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           >
             <MdClose size={30} />
           </button>
-        </div>
+        </motion.div>
       )}
     </div>
   );
