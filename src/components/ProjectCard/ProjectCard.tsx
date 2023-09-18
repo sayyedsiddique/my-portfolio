@@ -8,6 +8,8 @@ import { fadeUpIn, stagger } from "../../animations";
 
 type ProjectCardProps = {
   project: IProjects;
+  showDetails: number | null;
+  setshowDetails: (id: number | null) => void;
 };
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -19,9 +21,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     githubUrl,
     // category,
     keyTechs,
+    id,
   },
+  showDetails,
+  setshowDetails
 }) => {
-  const [showDetails, setshowDetails] = useState<boolean>(false);
+  // const [showDetails, setshowDetails] = useState<boolean>(false);
 
   return (
     <div>
@@ -29,11 +34,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         src={imagePath}
         alt={name}
         className="cursor-pointer"
-        onClick={() => setshowDetails(true)}
+        onClick={() => setshowDetails(id)}
       />
       <p className="my-2 text-center">{name}</p>
 
-      {showDetails === true && (
+      {showDetails === id && (
         <motion.div
           variants={stagger}
           initial="initial"
@@ -99,7 +104,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           <button
             className="absolute py-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
-            onClick={() => setshowDetails(false)}
+            onClick={() => setshowDetails(null)}
           >
             <MdClose size={30} />
           </button>

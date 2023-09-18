@@ -59,6 +59,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProjects[] = [
   {
+    id: 1,
     name: "COVID Tracker",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -69,6 +70,7 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 2,
     name: "CSV File Reader",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -79,6 +81,7 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 3,
     name: "TODO App",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -89,6 +92,7 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 4,
     name: "Amazon Clone",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -99,6 +103,7 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 5,
     name: "Zaps Marketing",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -109,6 +114,7 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 6,
     name: "eHadaya",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",

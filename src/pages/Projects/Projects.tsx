@@ -9,6 +9,7 @@ import { fadeUpIn, stagger } from "../../animations";
 const Projects: React.FC = () => {
   const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState("all");
+  const [showDetails, setshowDetails] = useState<number | null>(null);
 
   const filterCategoryHandler = (category: Category | "all") => {
     if (category === "all") {
@@ -46,7 +47,7 @@ const Projects: React.FC = () => {
                 key={item?.name}
                 className="col-span-12 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
               >
-                <ProjectCard project={item} />
+                <ProjectCard project={item} showDetails={showDetails} setshowDetails={setshowDetails} />
               </motion.div>
             );
           })}
