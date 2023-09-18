@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from 'next-themes' // next-themes package used for dark mode
+import resume from '../../assets/Syed+Siddique+Resume.pdf'
 
 const Sidebar: React.FC = () => {
 
@@ -25,9 +26,9 @@ const Sidebar: React.FC = () => {
         <span className="first-name-color">Sayyed</span> Siddique
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Web Developer</p>
-      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200">
-        <GiTie /> Download Resume
-      </p>
+      <a href={resume} download="Syed+Siddique+Resume.pdf" className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200">
+        <GiTie /> <span>Download Resume</span>
+      </a>
 
       {/* social icons */}
       <div className="flex items-center justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
