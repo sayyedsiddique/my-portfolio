@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { IProjects } from "../../types/types";
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
