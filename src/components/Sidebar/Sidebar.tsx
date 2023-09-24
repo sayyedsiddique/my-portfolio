@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from 'next-themes' // next-themes package used for dark mode
-import resume from '../../assets/Syed+Siddique+Resume.pdf'
+import resume from '../../assets/syed_siddique_resume.pdf'
 
 const Sidebar: React.FC = () => {
 
