@@ -18,7 +18,7 @@ export interface IProjects {
   id: number,
   name: string;
   desscription: string;
-  imagePath: string;
+  imagePath: any;
   deployedUrl: string;
   githubUrl: string;
   category: Category[];
@@ -26,4 +26,4 @@ export interface IProjects {
 }
 
 
-export type Category = "react" | "typescript" | "node" | "express" | "mongo"
+export type Category = "react" | "typescript" | "node" | "express" | "mongo" | "css"

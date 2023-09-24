@@ -1,6 +1,7 @@
 import { RiComputerLine } from "react-icons/ri";
 import { IProjects, ISkill, Iservices } from "../types/types";
 import { BsCircleFill } from "react-icons/bs";
+import menuProject from "../assets/projectImgs/menu.jpg";
 
 export const services: Iservices[] = [
   {
@@ -60,36 +61,37 @@ export const tools: ISkill[] = [
 export const projects: IProjects[] = [
   {
     id: 1,
-    name: "COVID Tracker",
+    name: "Action menubar with dark mode",
     desscription:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+      "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
+    imagePath: "/src/assets/projectImgs/menu1.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
-    githubUrl: "https://github.com/sayyedsiddique",
+    githubUrl:
+      "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
     category: ["react"],
-    keyTechs: ["React", "Chart.js", "Material UI"],
+    keyTechs: ["React", "CSS", "React Icons"],
   },
   {
     id: 2,
-    name: "CSV File Reader",
+    name: "Giftcard form design by pure CSS",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+    imagePath: "/src/assets/projectImgs/giftcar_form.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
-    githubUrl: "https://github.com/sayyedsiddique",
-    category: ["mongo"],
-    keyTechs: ["React", "Chart.js", "Material UI"],
+    githubUrl: "https://github.com/sayyedsiddique/Gifti_global_contact_form_using_html_css",
+    category: ["css"],
+    keyTechs: ["HTML", "CSS"],
   },
   {
     id: 3,
-    name: "TODO App",
+    name: "Full-Functionality Authentication System with Signup, Sign-in, Forgot Password, and OTP Verification",
     desscription:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    imagePath: "https://i.postimg.cc/C1H4Q3hv/myphoto.jpg",
+      "The Full-Functionality Authentication System is a robust and secure solution designed to manage user access to an application or platform. This comprehensive system encompasses key features such as user registration (signup), secure login (sign-in), password recovery (forgot password), and an additional layer of security through OTP (One-Time Password) verification.",
+    imagePath: "/src/assets/projectImgs/personalUsingLaptop.jpg",
     deployedUrl: "https://github.com/sayyedsiddique",
-    githubUrl: "https://github.com/sayyedsiddique",
-    category: ["typescript"],
-    keyTechs: ["React", "Chart.js", "Material UI"],
+    githubUrl: "https://github.com/sayyedsiddique/All-Type-Forms",
+    category: ["typescript", "react"],
+    keyTechs: ["React", "vite", "Material UI"],
   },
   {
     id: 4,

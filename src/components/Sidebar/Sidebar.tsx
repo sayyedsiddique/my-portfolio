@@ -5,6 +5,7 @@ import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from 'next-themes' // next-themes package used for dark mode
 import resume from '../../assets/syed_siddique_resume.pdf'
+import profile from "../../assets/profile.jpg"
 
 const Sidebar: React.FC = () => {
 
@@ -18,7 +19,7 @@ const Sidebar: React.FC = () => {
   return (
     <div>
       <img
-        src="https://i.postimg.cc/C1H4Q3hv/myphoto.jpg"
+        src={profile}
         alt=""
         className="w-32 h-32 mx-auto rounded-full"
       />

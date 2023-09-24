@@ -5,6 +5,7 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
+// import menuProject from "../../assets/projectImgs/menu.jpg"
 
 type ProjectCardProps = {
   project: IProjects;
@@ -28,6 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   // const [showDetails, setshowDetails] = useState<boolean>(false);
 
+  console.log("imagePath ", imagePath)
   return (
     <div>
       <img
