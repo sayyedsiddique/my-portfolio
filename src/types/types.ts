@@ -26,4 +26,4 @@ export interface IProjects {
 }
 
 
-export type Category = "react" | "typescript" | "node" | "express" | "mongo" | "css"
+export type Category = "react" | "typescript" | "node" | "express" | "mongo" | "css" | "vite"
