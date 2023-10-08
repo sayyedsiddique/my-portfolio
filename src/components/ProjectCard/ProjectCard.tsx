@@ -5,7 +5,10 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
-// import menuProject from "../../assets/projectImgs/menu.jpg"
+import ImageSlider from "../imageSlider/ImageSlider";
+// import ImageSlider from "../imageSlider/imageSlider";
+// import menuProject from "../../assets/projectImgs/blueBillImgs/bluebill_dashboard_page.png"
+
 
 type ProjectCardProps = {
   project: IProjects;
@@ -49,7 +52,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         >
           <div>
             <motion.div variants={fadeUpIn}>
-            <img src={imagePath} alt={name} />
+            {/* <img src={imagePath} alt={name} /> */}
+            <ImageSlider />
             </motion.div>
            
             <motion.div variants={fadeUpIn} className="flex justify-center my-4 space-x-3">
