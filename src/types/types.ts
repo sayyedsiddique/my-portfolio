@@ -19,6 +19,7 @@ export interface IProjects {
   name: string;
   desscription: string;
   imagePath: any;
+  sliderImages: any[]
   deployedUrl: string;
   githubUrl: string;
   category: Category[];

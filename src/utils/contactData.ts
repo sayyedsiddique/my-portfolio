@@ -65,9 +65,14 @@ export const projects: IProjects[] = [
     desscription:
       "At BlueBill POS, we're dedicated to revolutionizing the way businesses manage their transactions. Our cutting-edge Point-of-Sale (POS) system is designed to streamline your operations, enhance customer experiences, and drive growth.",
     imagePath: "/src/assets/projectImgs/blueBillImgs/dashboard.jpg",
+    sliderImages: [
+      { sliderImg: "/src/assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
-    githubUrl:
-      "",
+    githubUrl: "",
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons", "Redux"],
   },
@@ -77,6 +82,12 @@ export const projects: IProjects[] = [
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
     imagePath: "/src/assets/projectImgs/menu1.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
@@ -89,6 +100,12 @@ export const projects: IProjects[] = [
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
     imagePath: "/src/assets/projectImgs/zapsImgs/zaps_dashboard.png",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
@@ -101,6 +118,12 @@ export const projects: IProjects[] = [
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
     imagePath: "/src/assets/projectImgs/menu1.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
@@ -113,6 +136,12 @@ export const projects: IProjects[] = [
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     imagePath: "/src/assets/projectImgs/giftcar_form.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/Gifti_global_contact_form_using_html_css",
@@ -125,6 +154,12 @@ export const projects: IProjects[] = [
     desscription:
       "The Full-Functionality Authentication System is a robust and secure solution designed to manage user access to an application or platform. This comprehensive system encompasses key features such as user registration (signup), secure login (sign-in), password recovery (forgot password), and an additional layer of security through OTP (One-Time Password) verification.",
     imagePath: "/src/assets/projectImgs/personalUsingLaptop.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "https://github.com/sayyedsiddique/All-Type-Forms",
     category: ["typescript", "react"],
@@ -136,6 +171,12 @@ export const projects: IProjects[] = [
     desscription:
       "The React + Vite + TypeScript Todo List App is a modern, lightweight, and efficient task management application built using cutting-edge web technologies. This application provides users with a seamless and intuitive experience for organizing their tasks, ensuring productivity and efficiency in their daily routines.",
     imagePath: "/src/assets/projectImgs/react_stypescript_todo_app.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/TypescriptTutorials/tree/512c914f1cefc0334d4ebb11ed5bb5b56ddee62a/TODO_List",
@@ -148,6 +189,12 @@ export const projects: IProjects[] = [
     desscription:
       "The React + Vite + TypeScript Note App is a modern and efficient note-taking application designed to help users capture, organize, and manage their ideas, and important information effortlessly.",
     imagePath: "/src/assets/projectImgs/react_typescript_note_app.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/NoteApp",
@@ -160,8 +207,15 @@ export const projects: IProjects[] = [
     desscription:
       "The React + Vite + TypeScript Tic Tac Toe Game is a classic and engaging two-player strategy game designed to provide hours of entertainment and challenge.",
     imagePath: "/src/assets/projectImgs/react_tictactoe_game.jpg",
+    sliderImages: [
+      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+      },
+    ],
     deployedUrl: "https://github.com/sayyedsiddique",
-    githubUrl: "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/TicTacToeGame",
+    githubUrl:
+      "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/TicTacToeGame",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },

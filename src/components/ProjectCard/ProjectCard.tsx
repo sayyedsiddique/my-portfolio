@@ -21,6 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     name,
     desscription,
     imagePath,
+    sliderImages,
     deployedUrl,
     githubUrl,
     // category,
@@ -32,7 +33,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   // const [showDetails, setshowDetails] = useState<boolean>(false);
 
-  console.log("imagePath ", imagePath)
+  console.log("sliderImages ", sliderImages)
   return (
     <div>
       <img
@@ -53,7 +54,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <div>
             <motion.div variants={fadeUpIn}>
             {/* <img src={imagePath} alt={name} /> */}
-            <ImageSlider />
+
+              <ImageSlider image={sliderImages}/>
+
+            
             </motion.div>
            
             <motion.div variants={fadeUpIn} className="flex justify-center my-4 space-x-3">
