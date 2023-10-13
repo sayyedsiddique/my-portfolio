@@ -65,7 +65,7 @@ const Sidebar: React.FC = () => {
       {/* address */}
       <div
         className="py-4 my-5 bg-gray-200 dark:bg-dark-200 justify-centerpy-4"
-        style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
+        style={{ marginLeft: "-0.5rem", marginRight: "-0.5rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
           <GoLocation />
