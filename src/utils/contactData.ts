@@ -70,6 +70,24 @@ export const projects: IProjects[] = [
       {
         sliderImg: "/src/assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
       },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/addProduct.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/productListPage.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/onlineOrder.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/orderDetailsPage.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/billPage.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/blueBillImgs/arabicMode.jpg",
+      },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "",
@@ -83,9 +101,18 @@ export const projects: IProjects[] = [
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
     imagePath: "/src/assets/projectImgs/menu1.jpg",
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      { sliderImg: "../../assets/projectImgs/zapsImgs/dashboard.jpg" },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanCreation.jpg",
+      },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
+      },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
+      },
+      {
+        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
       },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
@@ -99,12 +126,18 @@ export const projects: IProjects[] = [
     name: "Zaps Reward - Start building your employee rewards",
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
-    imagePath: "/src/assets/projectImgs/zapsImgs/zaps_dashboard.png",
+    imagePath: "/src/assets/projectImgs/zapsImgs/dashboard.jpg",
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/dashboard.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanCreation.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanList.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistribution.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistributionSecondStep.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistributionThirdStep.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/orderList.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/reportDashboard.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/clientMapping.jpg" },
+      { sliderImg: "/src/assets/projectImgs/zapsImgs/resoucepPermission.jpg" },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
