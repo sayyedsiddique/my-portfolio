@@ -7,31 +7,31 @@ export const services: Iservices[] = [
   {
     title: "Frontend Developer",
     about:
-      "when an unknown printer took a <b>galley</b> of type and scrambled it to make a type specimen book...",
+      "I'm skilled at creating websites and applications that look good and are easy to use. I use the <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b>.",
     Icon: RiComputerLine,
   },
   {
     title: "Back Development",
     about:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "I'm good at creating the behind-the-scenes parts of a website. This includes making sure the server and database work together to support the front-end interface. I use <b>nodejs</b> and <b>expressjs</b>",
     Icon: RiComputerLine,
   },
   {
     title: "API Development",
     about:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "I'm experienced in building the parts of a website that allow different parts to talk to each other. This ensures that everything works together smoothly.",
     Icon: RiComputerLine,
   },
   {
-    title: "Competitive Coding",
+    title: "Typescript",
     about:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support. ",
     Icon: RiComputerLine,
   },
   {
     title: "UI/UX Designer",
     about:
-      "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+      "I specialize in designing websites and apps that not only look great but also make sense for users. I focus on creating designs that are user-friendly and visually appealing.",
     Icon: RiComputerLine,
   },
   {
@@ -132,8 +132,14 @@ export const projects: IProjects[] = [
       { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanCreation.jpg" },
       { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanList.jpg" },
       { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistribution.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistributionSecondStep.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistributionThirdStep.jpg" },
+      {
+        sliderImg:
+          "/src/assets/projectImgs/zapsImgs/coupanDistributionSecondStep.jpg",
+      },
+      {
+        sliderImg:
+          "/src/assets/projectImgs/zapsImgs/coupanDistributionThirdStep.jpg",
+      },
       { sliderImg: "/src/assets/projectImgs/zapsImgs/orderList.jpg" },
       { sliderImg: "/src/assets/projectImgs/zapsImgs/reportDashboard.jpg" },
       { sliderImg: "/src/assets/projectImgs/zapsImgs/clientMapping.jpg" },

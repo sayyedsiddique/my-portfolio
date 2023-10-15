@@ -6,12 +6,13 @@ import { fadeUpIn, stagger } from "../../animations";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <div className="flex flex-col flex-grow px-6 pt-1 overflow-scroll">
       <h5 className="my-3 font-medium ">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
-        modi. Incidunt quaerat corrupti repellendus earum omnis consequuntur
-        fugiat aliquam adipisci quidem perferendis sapiente, harum obcaecati
-        doloribus! Molestiae mollitia dicta itaque.
+        I'm a React developer with two years of industry experience. I've led
+        projects like BlueBill POS and Zaps Reward apps. I'm good with React,
+        HTML, CSS, and JavaScript. I know how to manage data, connect to
+        servers, and make apps run smoothly. I'm all about making user-friendly
+        interfaces. Learning and tech are my passions.
       </h5>
       <div
         className="flex-grow pt-4 mt-4 bg-gray-400 dark:bg-dark-500"
