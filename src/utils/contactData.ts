@@ -1,7 +1,7 @@
 import { RiComputerLine } from "react-icons/ri";
 import { IProjects, ISkill, Iservices } from "../types/types";
 import { BsCircleFill } from "react-icons/bs";
-import menuProject from "../assets/projectImgs/menu.jpg";
+
 
 export const services: Iservices[] = [
   {
