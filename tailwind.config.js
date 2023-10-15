@@ -8,6 +8,12 @@ export default {
         green: {
           DEFAULT: "#00f260",
         },
+        pink: {
+          DEFAULT: "#FF474C",
+        },
+        yellow: {
+          DEFAULT: "#F8BA2F",
+        },
         dark: {
           DEFAULT: "#010101",
           100: "#0a0b0e",
