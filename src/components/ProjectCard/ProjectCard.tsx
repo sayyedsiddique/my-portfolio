@@ -6,8 +6,7 @@ import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
 import ImageSlider from "../imageSlider/ImageSlider";
-// import ImageSlider from "../imageSlider/imageSlider";
-// import menuProject from "../../assets/projectImgs/blueBillImgs/bluebill_dashboard_page.png"
+
 
 
 type ProjectCardProps = {
@@ -55,7 +54,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <motion.div variants={fadeUpIn}>
             {/* <img src={imagePath} alt={name} /> */}
 
-              <ImageSlider image={sliderImages}/>
+              <ImageSlider imageArr={sliderImages}/>
 
             
             </motion.div>

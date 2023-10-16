@@ -12,28 +12,21 @@ type slideImgObj = {
   sliderImg: string
 }
 type ImageSliderProps = {
-  image: slideImgObj[];
+  imageArr: slideImgObj[];
 };
-const ImageSlider: React.FC<ImageSliderProps> = ({ image }) => {
-  console.log("image... ", image);
+const ImageSlider: React.FC<ImageSliderProps> = ({ imageArr }) => {
+  // console.log("imageArr... ", imageArr);
 
   return (
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-      {image &&
-        image?.map((item) => {
+      {imageArr &&
+        imageArr?.map((item) => {
           return (
             <SwiperSlide>
               <img src={item?.sliderImg} alt="" />
             </SwiperSlide>
           );
         })}
-      {/* <SwiperSlide><img src={image2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image4} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image5} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image6} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image7} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={image8} alt="" /></SwiperSlide> */}
     </Swiper>
   );
 };
