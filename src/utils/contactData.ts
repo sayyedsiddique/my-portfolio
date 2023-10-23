@@ -99,27 +99,40 @@ export const projects: IProjects[] = [
     name: "eHadaya Giftcard Gifting Services",
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
-    imagePath: "/src/assets/projectImgs/menu1.jpg",
+    imagePath: "/src/assets/projectImgs/ehadayaImg/mainDashboard.jpg",
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/zapsImgs/dashboard.jpg" },
+      { sliderImg:"/src/assets/projectImgs/ehadayaImg/loginPage.jpg" },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanCreation.jpg",
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/otpPage.jpg",
       },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcardDashboard.jpg",
       },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcartDistributionStepOne.jpg",
       },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/coupanList.jpg",
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcartDistributionStepTwo.jpg",
       },
+      {
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcardDistributionThree.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/orderSuccess.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/orderDetails.jpg",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/ehadayaImg/reportDashboard.jpg",
+      },
+      
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
     category: ["react"],
-    keyTechs: ["React", "CSS", "React Icons"],
+    keyTechs: ["React", "CSS", "React Icons", "Bootstrap", "Redux"],
   },
   {
     id: 3,
@@ -149,7 +162,7 @@ export const projects: IProjects[] = [
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
     category: ["react"],
-    keyTechs: ["React", "CSS", "React Icons"],
+    keyTechs: ["React", "CSS", "React Icons", "Material UI", "React Query",],
   },
   {
     id: 4,
