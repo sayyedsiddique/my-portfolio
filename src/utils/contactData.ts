@@ -205,11 +205,14 @@ export const projects: IProjects[] = [
     name: "Full-Functionality Authentication System with Signup, Sign-in, Forgot Password, and OTP Verification",
     desscription:
       "The Full-Functionality Authentication System is a robust and secure solution designed to manage user access to an application or platform. This comprehensive system encompasses key features such as user registration (signup), secure login (sign-in), password recovery (forgot password), and an additional layer of security through OTP (One-Time Password) verification.",
-    imagePath: "/src/assets/projectImgs/personalUsingLaptop.jpg",
+    imagePath: "/src/assets/projectImgs/loginSystem/signInPage.png",
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      { sliderImg: "/src/assets/projectImgs/loginSystem/signInPage.png" },
       {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+        sliderImg: "/src/assets/projectImgs/loginSystem/verificationPage.png",
+      },
+      {
+        sliderImg: "/src/assets/projectImgs/loginSystem/forgotPasswordPage.png",
       },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
