@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { IProjects } from "../../types/types";
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
@@ -31,6 +31,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   setshowDetails
 }) => {
   // const [showDetails, setshowDetails] = useState<boolean>(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  },[id])
 
   console.log("sliderImages ", sliderImages)
   return (

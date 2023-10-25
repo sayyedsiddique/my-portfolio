@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { projects as projectsData } from "../../utils/contactData";
 import ProjectNavbar from "../../components/ProjectNavbar/ProjectNavbar";
@@ -10,6 +10,12 @@ const Projects: React.FC = () => {
   const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState("all");
   const [showDetails, setshowDetails] = useState<number | null>(null);
+
+  console.log("showDetails... ", showDetails)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  },[showDetails])
 
   const filterCategoryHandler = (category: Category | "all") => {
     if (category === "all") {
@@ -25,6 +31,7 @@ const Projects: React.FC = () => {
     setProjects(newArr);
     setActive(category);
   };
+  
 
   return (
     <div className="px-4 py-2 overflow-scroll" style={{ height: "75vh" }}>
