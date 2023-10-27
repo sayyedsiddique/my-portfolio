@@ -26,5 +26,10 @@ export interface IProjects {
   keyTechs: string[];
 }
 
+export type DefaultLang = {
+  name: string;
+  langCode: string
+};
+
 
 export type Category = "react" | "typescript" | "node" | "express" | "mongo" | "css" | "vite"

@@ -1,5 +1,5 @@
 import { RiComputerLine } from "react-icons/ri";
-import { IProjects, ISkill, Iservices } from "../types/types";
+import { DefaultLang, IProjects, ISkill, Iservices } from "../types/types";
 import { BsCircleFill } from "react-icons/bs";
 
 
@@ -275,3 +275,9 @@ export const projects: IProjects[] = [
     keyTechs: ["React", "Typescript", "Vite"],
   },
 ];
+
+
+export const languagesData: DefaultLang[] = [
+  { name: "English", langCode: "Eng" },
+  { name: "English", langCode: "Hin" }
+]

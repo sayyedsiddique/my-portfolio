@@ -1,13 +1,13 @@
 {
-  "sidebar":{
+  "sidebar": {
     "Sayyed": "Sayyed",
     "Siddique": "Siddique",
     "webDeveloper": "Web Developer",
     "downloadResume": "Download Resume",
     "maharashtraBeed": "Maharashtra, Beed",
-    "8149313695":"8149313695",
+    "8149313695": "8149313695",
     "emailme": "Email me",
-    "darkmode":"Dark mode"
+    "darkmode": "Dark mode"
   },
   "navbar": {
     "about": "About",
@@ -20,8 +20,27 @@
   },
   "whatIOffer": {
     "frontendDeveloper": "Frontend Developer",
-    "about1":"I'm skilled at creating websites and applications that look good and are easy to use. I use the <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b>.",
+    "about1": "I'm skilled at creating websites and applications that look good and are easy to use. I use the <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b>.",
     "backDevelopment": "Back Development",
-    "about2": "I'm good at creating the behind-the-scenes parts of a website. This includes making sure the server and database work together to support the front-end interface. I use <b>nodejs</b> and <b>expressjs</b>"
+    "about2": "I'm good at creating the behind-the-scenes parts of a website. This includes making sure the server and database work together to support the front-end interface. I use <b>nodejs</b> and <b>expressjs</b>",
+    "apiDevelopment": "API Development",
+    "about3": "I'm experienced in building the parts of a website that allow different parts to talk to each other. This ensures that everything works together smoothly.",
+    "Typescript": "Typescript",
+    "about4": "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support. ",
+    "uixuDesigner": "UI/UX Designer",
+    "Whatever": "Whatever",
+    "about5": "when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+  },
+  "resume": {
+    "education": "Education",
+    "bca": "Bachelor of Computer Application (BCA)",
+    "bamu": "BAMU University (2012 - 2016)",
+    "graduation": "i completed my graduation in (BCA) from Dr. Babasaheb Ambedkar Marathwada University (BAMU)",
+    "experience":"Experience",
+    "frontendWebDeveloperJr": "Frontend Web Developer Jr.",
+    "ezygenTechnology": "Ezygen Technology",
+    "industryExperience": "I'm a React based frontend developer with two years of industry experience.",
+    "languangesFrameworks": "Languanges & Frameworks",
+    "toolsSoftware": "Tools & Software"
   }
 }
