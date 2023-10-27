@@ -8,16 +8,16 @@ const NavItem: FunctionComponent<{
   name: string;
 }> = ({ activeItem, route, setActiveItem, name }) => {
   return activeItem !== name ? (
-    <Link to={route}>
+    <Link id="RouterNavLink" to={route}>
       {" "}
-      <a>
+      {/* <a> */}
         <span
           className="text-black hover:text-green dark:text-white"
           onClick={() => setActiveItem(name)}
         >
           {name}
         </span>
-      </a>{" "}
+      {/* </a>{" "} */}
     </Link>
   ) : null;
 };

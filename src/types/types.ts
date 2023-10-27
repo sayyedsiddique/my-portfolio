@@ -4,6 +4,7 @@ export interface Iservices {
   title: string;
   about: string;
   Icon: IconType;
+  keyValue: any
 }
 
 // for resume

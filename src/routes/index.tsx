@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import MainPortfolio from "../pages/MainPortfolio";
 import About from "../pages/About/About";
@@ -49,6 +49,32 @@ const Routing: React.FC = () => {
       localStorage.setItem("defaultLang", JSON.stringify("me"));
     }
   };
+
+    // direction of the website
+  // and some design changed here
+  // useEffect(() => {
+  //   if (selectedLang?.langCode === "Eng") {
+  //     setSelectedLang({
+  //       name: "English",
+  //       langCode: "Eng",
+  //     });
+  //     i18next.changeLanguage("en");
+  //     document.dir = "ltr";
+  //     document.lang = "en";
+  //     document.body.style.textAlign = "left";
+  //     document.body.style.fontFamily = `"Montserrat", sans-serif;`;
+  //   } else if (defaultLang === "Hind") {
+  //     setSelectedLang({
+  //       name: "Hindi",
+  //       langCode: "Hin",
+  //     });
+  //     i18next.changeLanguage(defaultLang);  //
+  //     document.dir = "ltr";
+  //     document.lang = "hi";  //
+  //     document.body.style.textAlign = "left";
+  //     document.body.style.fontFamily = `"Montserrat", sans-serif;`;
+  //   }
+  // }, [selectedLang]);
 
   return (
     <Routes>

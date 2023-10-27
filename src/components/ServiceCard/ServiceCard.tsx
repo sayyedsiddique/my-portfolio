@@ -8,6 +8,7 @@ const ServiceCard: React.FC<Iservices> = ({ title, about, Icon }) => {
       __html: about
     }
   }
+
   
   return (
     <div className="flex items-center p-2 space-x-4">

@@ -27,16 +27,18 @@ const About: React.FC = () => {
           className="grid gap-6 m-4 lg:grid-cols-2"
         >
           {services &&
-            services?.map((item) => {
+            services?.map((item, index) => {
               return (
                 <motion.div
                   variants={fadeUpIn}
                   className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
+                  key={index}
                 >
                   <ServiceCard
                     title={item?.title}
                     about={item?.about}
                     Icon={item?.Icon}
+                    keyValue={index}
                   />
                 </motion.div>
               );
