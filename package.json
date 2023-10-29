@@ -19,6 +19,7 @@
     "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.15",
     "framer-motion": "^10.16.4",
+    "i18next": "^23.6.0",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.3.0",
     "next-themes": "^0.2.1",

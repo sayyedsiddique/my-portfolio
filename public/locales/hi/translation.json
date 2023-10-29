@@ -1,46 +1,46 @@
 {
   "sidebar": {
-    "Sayyed": "Sayyed",
-    "Siddique": "Siddique",
-    "webDeveloper": "Web Developer",
-    "downloadResume": "Download Resume",
-    "maharashtraBeed": "Maharashtra, Beed",
+    "Sayyed": "सैय्यद",
+    "Siddique": "सिद्दीकी",
+    "webDeveloper": "वेब डेवलपर",
+    "downloadResume": "रिज्यूमे डाउनलोड करें",
+    "maharashtraBeed": "महाराष्ट्र, बीड",
     "8149313695": "8149313695",
-    "emailme": "Email me",
-    "darkmode": "Dark mode"
+    "emailme": "मुझे ईमेल करें",
+    "darkmode": "डार्क मोड"
   },
   "navbar": {
-    "about": "About",
-    "projects": "Projects",
-    "resume": "Resume"
+    "about": "बारे में",
+    "projects": "परियोजनाएँ",
+    "resume": "बायोडेटा"
   },
   "about": {
-    "aboutMe": "I'm a React developer with two years of industry experience. I've led projects like BlueBill POS and Zaps Reward apps. I'm good with React, HTML, CSS, and JavaScript. I know how to manage data, connect to servers, and make apps run smoothly. I'm all about making user-friendly interfaces. Learning and tech are my passions",
-    "whatIOffer": "What I Offer"
+    "aboutMe": "मैं एक रियैक्ट डेवलपर हूँ और मेरे पास इस डोमेन में दो साल का अनुभव है। मैंने ब्ल्यूबिल पीओएस और जैप्स रिवॉर्ड ऐप्स जैसी परियोजनाओं का नेतृत्व किया है। मुझे रिएक्ट, एचटीएमएल, सीएसएस, और जावास्क्रिप्ट का अच्छा ज्ञान है। मैं डेटा को प्रबंधित करने, सर्वर से कनेक्ट करने, और ऐप्स को सहज चलाने के बारे में जानता हूँ। मेरा ध्यान प्रमुख रूप से उपयोगकर्ता-मित्र इंटरफेस बनाने की दिशा में है। सीखना और तकनीक मेरी रुचियां हैं।",
+    "whatIOffer": "मैं क्या प्रस्तावित करता हूँ"
   },
   "whatIOffer": {
-    "frontendDeveloper": "Frontend Developer",
-    "about1": "I'm skilled at creating websites and applications that look good and are easy to use. I use the <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b>.",
-    "backDevelopment": "Back Development",
-    "about2": "I'm good at creating the behind-the-scenes parts of a website. This includes making sure the server and database work together to support the front-end interface. I use <b>nodejs</b> and <b>expressjs</b>",
-    "apiDevelopment": "API Development",
-    "about3": "I'm experienced in building the parts of a website that allow different parts to talk to each other. This ensures that everything works together smoothly.",
-    "Typescript": "Typescript",
-    "about4": "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support. ",
-    "uixuDesigner": "UI/UX Designer",
-    "Whatever": "Whatever",
-    "about5": "when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    "frontendDeveloper": "फ्रंटएंड डेवलपर",
+    "I'm skilled at creating websites and applications that look good and are easy to use. I use the <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b>.": "मैं वेबसाइटें और एप्लिकेशन्स बनाने में माहिर हूँ जो अच्छे दिखते हैं और उनका उपयोग करना आसान है। मैं <b>React</b> , <b>HTML</b> , <b>CSS</b> , <b>Javascript</b> , <b>Typescript</b> का उपयोग करता हूँ।",
+    "backDevelopment": "बैक डेवलपमेंट",
+    "I'm good at creating the behind-the-scenes parts of a website. This includes making sure the server and database work together to support the front-end interface. I use <b>nodejs</b> and <b>expressjs</b>": "मैं वेबसाइट के पीछे की भूमिकाओं को बनाने में माहिर हूँ। इसमें शामिल है सर्वर और डेटाबेस को साथ में काम करने के लिए सुनिश्चित करना कि फ्रंट-एंड इंटरफेस को समर्थन करने के लिए। मैं <b>nodejs</b> और <b>expressjs</b> का उपयोग करता हूँ।",
+    "apiDevelopment": "एपीआई डेवलपमेंट",
+    "I'm experienced in building the parts of a website that allow different parts to talk to each other. This ensures that everything works together smoothly.": "मैं वेबसाइट के भागों को बनाने के लिए अनुभवी हूँ जो विभिन्न भागों को एक-दूसरे से बात करने की अनुमति देते हैं। यह सुनिश्चित करता है कि सब कुछ संगठित रूप से काम करता है।",
+    "Typescript": "टाइपस्क्रिप्ट",
+    "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support.": "मेरे पास <b>टाइपस्क्रिप्ट</b> का अच्छा ज्ञान है। यह जावास्क्रिप्ट का एक शक्तिशाली सुपरसेट है, जिससे स्थिर टाइपिंग और उन्नत उपकरण समर्थन के माध्यम से मजबूत और मापनीय एप्लिकेशनों का विकास संभव है।",
+    "I specialize in designing websites and apps that not only look great but also make sense for users. I focus on creating designs that are user-friendly and visually appealing.": "मेरी विशेषज्ञता वहाँ वेबसाइटों और एप्लिकेशनों के डिजाइन करने में है जो केवल शानदार नहीं दिखते, बल्कि उपयोगकर्ताओं के लिए समझ में भी आते हैं। मेरा ध्यान उपयोगकर्ता के लिए सहज और दृश्यात्मक रूप से आकर्षक डिजाइन बनाने पर है।",
+    "Whatever": "जो भी",
+    "when an unknown printer took a galley of type and scrambled it to make a type specimen book": "जब एक अज्ञात मुद्रक ने टाइप का एक नमूना बनाने के लिए इसे विरचित किया था"
   },
   "resume": {
-    "education": "Education",
-    "bca": "Bachelor of Computer Application (BCA)",
-    "bamu": "BAMU University (2012 - 2016)",
-    "graduation": "i completed my graduation in (BCA) from Dr. Babasaheb Ambedkar Marathwada University (BAMU)",
-    "experience":"Experience",
-    "frontendWebDeveloperJr": "Frontend Web Developer Jr.",
-    "ezygenTechnology": "Ezygen Technology",
-    "industryExperience": "I'm a React based frontend developer with two years of industry experience.",
-    "languangesFrameworks": "Languanges & Frameworks",
-    "toolsSoftware": "Tools & Software"
+    "education": "शिक्षा",
+    "bca": "कंप्यूटर एप्लीकेशन का स्नातक (BCA)",
+    "bamu": "बाबासाहेब अंबेडकर मराठवाड़ा विश्वविद्यालय (2012 - 2016)",
+    "graduation": "मैंने डॉ। बाबासाहेब अंबेडकर मराठवाड़ा विश्वविद्यालय (BAMU) से कंप्यूटर एप्लीकेशन की स्नातक की है (BCA)",
+    "experience": "अनुभव",
+    "frontendWebDeveloperJr": "फ्रंटएंड वेब डेवलपर जूनियर",
+    "ezygenTechnology": "ईजीजन टेक्नोलॉजी",
+    "industryExperience": "मेरे पास दो वर्षों का उद्योग अनुभव है जिसमें रियैक्ट आधारित फ्रंटएंड डेवलपर की भूमिका है।",
+    "languangesFrameworks": "भाषाएँ और फ्रेमवर्क्स",
+    "toolsSoftware": "उपकरण और सॉफ़्टवेयर"
   }
 }

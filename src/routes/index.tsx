@@ -9,13 +9,15 @@ import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 import { DefaultLang } from "../types/types";
 
+
 const Routing: React.FC = () => {
   const [selectedLang, setSelectedLang] = useState({
     name: "English",
     langCode: "Eng",
   });
   console.log("selectedLang... ", selectedLang)
-  const [defaultLang, setdefaultLang] = useState("en"); // en
+  const [defaultLang, setDefaultLang] = useState("en"); // en
+  console.log("defaultLang... ", defaultLang)
 
   const { t, i18n } = useTranslation();
 
@@ -35,7 +37,7 @@ const Routing: React.FC = () => {
         name: "English",
         langCode: "Eng",
       });
-      setdefaultLang("en");
+      setDefaultLang("en");
       localStorage.setItem("defaultLang", JSON.stringify("en"));
     } else if (
       langName === "Hindi" ||
@@ -46,36 +48,37 @@ const Routing: React.FC = () => {
         name: "Hindi",
         langCode: "Hin",
       });
-      setdefaultLang("me");
+      setDefaultLang("hi");
       localStorage.setItem("defaultLang", JSON.stringify("me"));
     }
   };
 
     // direction of the website
   // and some design changed here
-  // useEffect(() => {
-  //   if (selectedLang?.langCode === "Eng") {
-  //     setSelectedLang({
-  //       name: "English",
-  //       langCode: "Eng",
-  //     });
-  //     i18next.changeLanguage("en");
-  //     document.dir = "ltr";
-  //     document.lang = "en";
-  //     document.body.style.textAlign = "left";
-  //     document.body.style.fontFamily = `"Montserrat", sans-serif;`;
-  //   } else if (defaultLang === "Hind") {
-  //     setSelectedLang({
-  //       name: "Hindi",
-  //       langCode: "Hin",
-  //     });
-  //     i18next.changeLanguage(defaultLang);  //
-  //     document.dir = "ltr";
-  //     document.lang = "hi";  //
-  //     document.body.style.textAlign = "left";
-  //     document.body.style.fontFamily = `"Montserrat", sans-serif;`;
-  //   }
-  // }, [selectedLang]);
+  useEffect(() => {
+    if (defaultLang === "en") {
+      setSelectedLang({
+        name: "English",
+        langCode: "Eng",
+      });
+      console.log("eng chala")
+      i18next.changeLanguage("en");
+      document.dir = "ltr";
+      document.lang = "en";
+      document.body.style.textAlign = "left";
+      document.body.style.fontFamily = `"Montserrat", sans-serif;`;
+    } else if (defaultLang === "hi") {
+      setSelectedLang({
+        name: "Hindi",
+        langCode: "Hin",
+      });
+      i18next.changeLanguage("hi");  //
+      document.dir = "ltr";
+      document.lang = "hi";  //
+      document.body.style.textAlign = "left";
+      document.body.style.fontFamily = `"Montserrat", sans-serif;`;
+    }
+  }, [defaultLang]);
 
   return (
     <Routes>

@@ -65,7 +65,7 @@ export const services: Iservices[] = [
   {
     title: "Typescript",
     about:
-      "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support. ",
+      "I have a good knowledge of <b>Typescript</b>. a powerful superset of JavaScript, enabling the development of more robust and scalable applications through static typing and advanced tooling support.",
     Icon: RiComputerLine,
   },
   {
