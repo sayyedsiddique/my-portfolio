@@ -38,7 +38,6 @@ const About: React.FC = () => {
                     title={item?.title}
                     about={item?.about}
                     Icon={item?.Icon}
-                    keyValue={index}
                   />
                 </motion.div>
               );

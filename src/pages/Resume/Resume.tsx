@@ -12,7 +12,7 @@ const Resume: React.FC = () => {
         <motion.div variants={fadeUpIn} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">
+            <h5 className="my-2 text-lg font-bold">
               Bachelor of Computer Application (BCA)
             </h5>
             <p className="font-semibold ">BAMU University (2012 - 2016)</p>

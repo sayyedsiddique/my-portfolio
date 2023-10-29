@@ -1,7 +1,47 @@
 import { RiComputerLine } from "react-icons/ri";
 import { DefaultLang, IProjects, ISkill, Iservices } from "../types/types";
 import { BsCircleFill } from "react-icons/bs";
+import BbDashboarImg from '../../public/images/projectImgs/blueBillImgs/dashboard.jpg'
+import BbStoreDetailsPage from "../../public/images/projectImgs/blueBillImgs/storeDetailsPage.jpg"
+import BbAddProduct from "../../public/images/projectImgs/blueBillImgs/addProduct.jpg"
+import BbProductListPage from "../../public/images/projectImgs/blueBillImgs/productListPage.jpg"
+import BbOnlineOrder from "../../public/images/projectImgs/blueBillImgs/onlineOrder.jpg"
+import BbOrderDetailsPage from "../../public/images/projectImgs/blueBillImgs/orderDetailsPage.jpg"
+import BbBillPage from "../../public/images/projectImgs/blueBillImgs/billPage.jpg"
+import BbArabicMode from "../../public/images/projectImgs/blueBillImgs/arabicMode.jpg"
 
+// eHadaya project images
+import EhadayaMainDashboard from "../../public/images/projectImgs/ehadayaImg/mainDashboard.jpg"
+import EhadayaOtpPage from "/public/images/projectImgs/ehadayaImg/otpPage.jpg"
+import EhadayaGiftcardDashboard from "/public/images/projectImgs/ehadayaImg/giftcardDashboard.jpg"
+import EhadayaGiftcartDistributionStepOne from "/public/images/projectImgs/ehadayaImg/giftcartDistributionStepOne.jpg"
+import EhadayaGiftcartDistributionStepTwo from "/public/images/projectImgs/ehadayaImg/giftcartDistributionStepTwo.jpg"
+import EhadayaGiftcardDistributionThree from "/public/images/projectImgs/ehadayaImg/giftcardDistributionThree.jpg"
+import EhadayaOrderSuccess from "/public/images/projectImgs/ehadayaImg/orderSuccess.jpg"
+import EhadayaOrderDetails from "/public/images/projectImgs/ehadayaImg/orderDetails.jpg"
+import EhadayaReportDashboard from "/public/images/projectImgs/ehadayaImg/reportDashboard.jpg"
+
+import zapsDashboard from "/public/images/projectImgs/zapsImgs/dashboard.jpg"
+import zapsCoupanCreation from "/public/images/projectImgs/zapsImgs/coupanCreation.jpg"
+import zapsCoupanList from "/public/images/projectImgs/zapsImgs/coupanList.jpg"
+import zapsCoupanDistribution from "/public/images/projectImgs/zapsImgs/coupanDistribution.jpg"
+import zapsCoupanDistributionSecondStep from "/public/images/projectImgs/zapsImgs/coupanDistributionSecondStep.jpg"
+import zapsCoupanDistributionThirdStep from "/public/images/projectImgs/zapsImgs/coupanDistributionThirdStep.jpg"
+import zapsOrderList from "/public/images/projectImgs/zapsImgs/orderList.jpg"
+import zapsReportDashboard from "/public/images/projectImgs/zapsImgs/reportDashboard.jpg"
+import zapsClientMapping from "/public/images/projectImgs/zapsImgs/clientMapping.jpg"
+import zapsResoucepPermission from "/public/images/projectImgs/zapsImgs/resoucepPermission.jpg"
+
+import DarkModeMenuImg from "/public/images/projectImgs/menu1.jpg"
+
+import GiftcardFormImg from "/public/images/projectImgs/giftcar_form.jpg"
+import signInPageImg from "/public/images/projectImgs/loginSystem/signInPage.jpg"
+import verificationPageImg from "/public/images/projectImgs/loginSystem/verificationPage.jpg"
+import forgotPasswordPageImg from "/public/images/projectImgs/loginSystem/forgotPasswordPage.jpg"
+
+import TodoAppImg from "/public/images/projectImgs/react_stypescript_todo_app.jpg"
+import NoteAppImg from "/public/images/projectImgs/react_typescript_note_app.jpg"
+import NotTicToeGameImg from "/public/images/projectImgs/react_tictactoe_game.jpg"
 
 export const services: Iservices[] = [
   {
@@ -64,29 +104,29 @@ export const projects: IProjects[] = [
     name: "BlueBill POS - Your Point-of-Sale Solution",
     desscription:
       "At BlueBill POS, we're dedicated to revolutionizing the way businesses manage their transactions. Our cutting-edge Point-of-Sale (POS) system is designed to streamline your operations, enhance customer experiences, and drive growth.",
-    imagePath: "/src/assets/projectImgs/blueBillImgs/dashboard.jpg",
+    imagePath: `${BbDashboarImg}`,
     sliderImages: [
-      { sliderImg: "/src/assets/projectImgs/blueBillImgs/dashboard.jpg" },
+      { sliderImg: `${BbDashboarImg}` },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
+        sliderImg: `${BbStoreDetailsPage}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/addProduct.jpg",
+        sliderImg: `${BbAddProduct}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/productListPage.jpg",
+        sliderImg: `${BbProductListPage}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/onlineOrder.jpg",
+        sliderImg: `${BbOnlineOrder}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/orderDetailsPage.jpg",
+        sliderImg: `${BbOrderDetailsPage}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/billPage.jpg",
+        sliderImg: `${BbBillPage}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/blueBillImgs/arabicMode.jpg",
+        sliderImg: `${BbArabicMode}`,
       },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
@@ -99,32 +139,32 @@ export const projects: IProjects[] = [
     name: "eHadaya Giftcard Gifting Services",
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
-    imagePath: "/src/assets/projectImgs/ehadayaImg/mainDashboard.jpg",
+    imagePath: `${EhadayaMainDashboard}`,
     sliderImages: [
-      { sliderImg:"/src/assets/projectImgs/ehadayaImg/loginPage.jpg" },
+      { sliderImg: `${EhadayaMainDashboard}` },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/otpPage.jpg",
+        sliderImg: `${EhadayaOtpPage}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcardDashboard.jpg",
+        sliderImg: `${EhadayaGiftcardDashboard}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcartDistributionStepOne.jpg",
+        sliderImg: `${EhadayaGiftcartDistributionStepOne}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcartDistributionStepTwo.jpg",
+        sliderImg: `${EhadayaGiftcartDistributionStepTwo}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/giftcardDistributionThree.jpg",
+        sliderImg: `${EhadayaGiftcardDistributionThree}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/orderSuccess.jpg",
+        sliderImg: `${EhadayaOrderSuccess}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/orderDetails.jpg",
+        sliderImg: `${EhadayaOrderDetails}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/ehadayaImg/reportDashboard.jpg",
+        sliderImg: `${EhadayaReportDashboard}`,
       },
       
     ],
@@ -139,24 +179,24 @@ export const projects: IProjects[] = [
     name: "Zaps Reward - Start building your employee rewards",
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
-    imagePath: "/src/assets/projectImgs/zapsImgs/dashboard.jpg",
+    imagePath: `${zapsDashboard}`,
     sliderImages: [
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/dashboard.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanCreation.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanList.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/coupanDistribution.jpg" },
+      { sliderImg: `${zapsDashboard}` },
+      { sliderImg: `${zapsCoupanCreation}` },
+      { sliderImg: `${zapsCoupanList}` },
+      { sliderImg: `${zapsCoupanDistribution}` },
       {
         sliderImg:
-          "/src/assets/projectImgs/zapsImgs/coupanDistributionSecondStep.jpg",
+        `${zapsCoupanDistributionSecondStep}`,
       },
       {
         sliderImg:
-          "/src/assets/projectImgs/zapsImgs/coupanDistributionThirdStep.jpg",
+        `${zapsCoupanDistributionThirdStep}`,
       },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/orderList.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/reportDashboard.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/clientMapping.jpg" },
-      { sliderImg: "/src/assets/projectImgs/zapsImgs/resoucepPermission.jpg" },
+      { sliderImg: `${zapsOrderList}` },
+      { sliderImg: `${zapsReportDashboard}` },
+      { sliderImg: `${zapsClientMapping}` },
+      { sliderImg: `${zapsResoucepPermission}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
@@ -169,12 +209,9 @@ export const projects: IProjects[] = [
     name: "Action menubar with dark mode",
     desscription:
       "The Action Menubar with Dark Mode project is a dynamic user interface enhancement designed to provide a seamless and intuitive experience for users navigating through an application. This feature-rich menubar not only offers a comprehensive set of actions but also incorporates a modern and visually appealing dark mode theme.",
-    imagePath: "/src/assets/projectImgs/menu1.jpg",
+    imagePath: `${DarkModeMenuImg}`,
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: `${DarkModeMenuImg}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
@@ -187,12 +224,9 @@ export const projects: IProjects[] = [
     name: "Giftcard form design by pure CSS",
     desscription:
       "when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    imagePath: "/src/assets/projectImgs/giftcar_form.jpg",
+    imagePath: `${GiftcardFormImg}`,
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: `${GiftcardFormImg}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
@@ -202,17 +236,17 @@ export const projects: IProjects[] = [
   },
   {
     id: 6,
-    name: "Full-Functionality Authentication System with Signup, Sign-in, Forgot Password, and OTP Verification",
+    name: "Authentication System with Signup, Sign-in, Forgot Password, and OTP Verification",
     desscription:
       "The Full-Functionality Authentication System is a robust and secure solution designed to manage user access to an application or platform. This comprehensive system encompasses key features such as user registration (signup), secure login (sign-in), password recovery (forgot password), and an additional layer of security through OTP (One-Time Password) verification.",
-    imagePath: "/src/assets/projectImgs/loginSystem/signInPage.jpg",
+    imagePath: `${signInPageImg}`,
     sliderImages: [
-      { sliderImg: "/src/assets/projectImgs/loginSystem/signInPage.jpg" },
+      { sliderImg: `${signInPageImg}` },
       {
-        sliderImg: "/src/assets/projectImgs/loginSystem/verificationPage.jpg",
+        sliderImg: `${verificationPageImg}`,
       },
       {
-        sliderImg: "/src/assets/projectImgs/loginSystem/forgotPasswordPage.jpg",
+        sliderImg: `${forgotPasswordPageImg}`,
       },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
@@ -225,12 +259,9 @@ export const projects: IProjects[] = [
     name: "React + Vite + Typescript Todo List App",
     desscription:
       "The React + Vite + TypeScript Todo List App is a modern, lightweight, and efficient task management application built using cutting-edge web technologies. This application provides users with a seamless and intuitive experience for organizing their tasks, ensuring productivity and efficiency in their daily routines.",
-    imagePath: "/src/assets/projectImgs/react_stypescript_todo_app.jpg",
+    imagePath: `${TodoAppImg}`,
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: `${TodoAppImg}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
@@ -243,12 +274,9 @@ export const projects: IProjects[] = [
     name: "Note App Using React + Vite + Typescript",
     desscription:
       "The React + Vite + TypeScript Note App is a modern and efficient note-taking application designed to help users capture, organize, and manage their ideas, and important information effortlessly.",
-    imagePath: "/src/assets/projectImgs/react_typescript_note_app.jpg",
+    imagePath: `${NoteAppImg}`,
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: `${NoteAppImg}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
@@ -261,12 +289,9 @@ export const projects: IProjects[] = [
     name: "Tic Tac Toe Game Using React + Vite + Typescript",
     desscription:
       "The React + Vite + TypeScript Tic Tac Toe Game is a classic and engaging two-player strategy game designed to provide hours of entertainment and challenge.",
-    imagePath: "/src/assets/projectImgs/react_tictactoe_game.jpg",
+    imagePath: `${NotTicToeGameImg}`,
     sliderImages: [
-      { sliderImg: "../../assets/projectImgs/blueBillImgs/dashboard.jpg" },
-      {
-        sliderImg: "../../assets/projectImgs/blueBillImgs/storeDetailsPage.jpg",
-      },
+      { sliderImg: `${NotTicToeGameImg}` },
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:

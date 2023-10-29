@@ -5,7 +5,7 @@ import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from 'next-themes' // next-themes package used for dark mode
 import resume from '../../assets/syed_siddique_resume.pdf'
-import profile from "../../assets/profile.jpg"
+import profile from "../../../public/images/profile.jpg"
 
 const Sidebar: React.FC = () => {
 
