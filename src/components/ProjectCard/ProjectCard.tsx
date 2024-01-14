@@ -6,8 +6,8 @@ import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
 import ImageSlider from "../imageSlider/ImageSlider";
-
-
+import YouTube from 'react-youtube';
+import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 type ProjectCardProps = {
   project: IProjects;
@@ -28,15 +28,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     id,
   },
   showDetails,
-  setshowDetails
+  setshowDetails,
 }) => {
   // const [showDetails, setshowDetails] = useState<boolean>(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  },[id])
+    window.scrollTo(0, 0);
+  }, [id]);
 
-  console.log("sliderImages ", sliderImages)
+  console.log("sliderImages ", sliderImages);
   return (
     <div>
       <img
@@ -45,6 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         className="cursor-pointer"
         onClick={() => setshowDetails(id)}
       />
+
       <p className="my-2 text-center">{name}</p>
 
       {showDetails === id && (
@@ -54,16 +55,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           animate="animate"
           className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100"
         >
+          {/* image container */}
           <div>
+            {/* images slider */}
             <motion.div variants={fadeUpIn}>
-            {/* <img src={imagePath} alt={name} /> */}
-
-              <ImageSlider imageArr={sliderImages}/>
-
-            
+              <ImageSlider imageArr={sliderImages} />
             </motion.div>
-           
-            <motion.div variants={fadeUpIn} className="flex justify-center my-4 space-x-3">
+
+            {/* git and project buttons */}
+            <motion.div
+              variants={fadeUpIn}
+              className="flex justify-center my-4 space-x-3"
+            >
               <a
                 href={githubUrl}
                 className="flex items-center px-4 py-2 space-x-3 bg-gray-200 dark:bg-dark-200"
@@ -97,11 +100,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </motion.div>
           </div>
 
-          {/* keywords section */}
+          {/* details and keyword container */}
           <motion.div variants={stagger}>
-            <motion.h2  variants={fadeUpIn} className="mb-3 text-xl font-medium md:text-2xl">{name}</motion.h2>
-            <motion.h3 variants={fadeUpIn}  className="mb-3 font-medium">{desscription}</motion.h3>
-            <motion.div variants={fadeUpIn}  className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+            <motion.h2
+              variants={fadeUpIn}
+              className="mb-5 text-xl font-medium md:text-2xl"
+            >
+              {name}
+            </motion.h2>
+            <motion.h3 variants={fadeUpIn} className="mb-3 font-medium">
+              {desscription}
+            </motion.h3>
+            <motion.div
+              variants={fadeUpIn}
+              className="flex flex-wrap gap-2 mt-5 mb-3 text-sm tracking-wider"
+            >
               {keyTechs?.map((item) => {
                 return (
                   <span
@@ -113,6 +126,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 );
               })}
             </motion.div>
+          </motion.div>
+
+          {/* Video section */}
+          <motion.div variants={fadeUpIn}>
+            <VideoPlayer videoUrl="-grXTQyB5ww"/>
           </motion.div>
 
           <button

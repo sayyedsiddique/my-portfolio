@@ -1,4 +1,3 @@
-
 import { FaLaptopCode } from "react-icons/fa6";
 import { AiOutlineCloudServer } from "react-icons/ai";
 import { AiOutlineApi } from "react-icons/ai";
@@ -46,8 +45,12 @@ import verificationPageImg from "/public/images/projectImgs/loginSystem/verifica
 import forgotPasswordPageImg from "/public/images/projectImgs/loginSystem/forgotPasswordPage.jpg";
 
 import TodoAppImg from "/public/images/projectImgs/react_stypescript_todo_app.jpg";
-import NoteAppImg from "/public/images/projectImgs/react_typescript_note_app.jpg";
 import NotTicToeGameImg from "/public/images/projectImgs/react_tictactoe_game.jpg";
+
+import ExpandingCard from "/public/images/projectImgs/ExpandingCard.jpg";
+import ProgrssStep from "/public/images/projectImgs/ProgrssStep.jpg";
+import BlurLoading from "/public/images/projectImgs/BlurLoading.jpg";
+import SplitLandingPage from "/public/images/projectImgs/SplittLandingPage.jpg"; 
 
 export const services: Iservices[] = [
   {
@@ -268,14 +271,14 @@ export const projects: IProjects[] = [
   },
   {
     id: 8,
-    name: "Note App Using React + Vite + Typescript",
+    name: "Expanding Card React + Vite + TypeScript",
     desscription:
-      "The React + Vite + TypeScript Note App is a modern and efficient note-taking application designed to help users capture, organize, and manage their ideas, and important information effortlessly.",
-    imagePath: `${NoteAppImg}`,
-    sliderImages: [{ sliderImg: `${NoteAppImg}` }],
+      "Expanding Card project created with React + Vite + Typescript, when user click on card that card will expand thier width",
+    imagePath: `${ExpandingCard}`,
+    sliderImages: [{ sliderImg: `${ExpandingCard}` }],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
-      "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/NoteApp",
+      "https://github.com/sayyedsiddique/fifty-small-project/tree/main/ExpandingCard",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -289,6 +292,45 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/TicTacToeGame",
+    category: ["react", "typescript", "vite"],
+    keyTechs: ["React", "Typescript", "Vite"],
+  },
+  {
+    id: 10,
+    name: "Progress Step Using React + Vite + Typescript",
+    desscription:
+      "Progress Step created by using React + Vite + Typescript, This project is very helpful when i have to create things in progress step like filling form, creating accounts, doing any shopping order, creating products",
+    imagePath: `${ProgrssStep}`,
+    sliderImages: [{ sliderImg: `${ProgrssStep}` }],
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl:
+      "https://github.com/sayyedsiddique/fifty-small-project/tree/main/ProgressSteps",
+    category: ["react", "typescript", "vite"],
+    keyTechs: ["React", "Typescript", "Vite"],
+  },
+  {
+    id: 11,
+    name: "Blur Loading Using React + Vite + Typescript",
+    desscription:
+      "blur loading allows you to display a lower-resolution or blurred version of an image as a placeholder while the high-resolution image is still loading in the background.",
+    imagePath: `${BlurLoading}`,
+    sliderImages: [{ sliderImg: `${BlurLoading}` }],
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl:
+      "https://github.com/sayyedsiddique/fifty-small-project/tree/main/BlurLoading",
+    category: ["react", "typescript", "vite"],
+    keyTechs: ["React", "Typescript", "Vite"],
+  },
+  {
+    id: 12,
+    name: "The Interactive Split Landing Page Using React + Vite + Typescript",
+    desscription:
+      "The Interactive Split Landing Page is a web design project aimed at creating an engaging and dynamic user interface that responds to user interaction. The primary feature of this landing page is the ability to split its content into two sections, with the width of one section dynamically increasing upon mouse hover",
+    imagePath: `${SplitLandingPage}`,
+    sliderImages: [{ sliderImg: `${SplitLandingPage}` }],
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl:
+      "https://github.com/sayyedsiddique/fifty-small-project/tree/main/SplitLandingPage",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
