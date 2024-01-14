@@ -33,7 +33,6 @@ const About: React.FC = () => {
                   className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
                   key={index}
                 >
-                  {console.log("item?.about ", item?.about)}
                   <ServiceCard
                     title={item?.title}
                     about={t(`whatIOffer.${item?.about}`)}
