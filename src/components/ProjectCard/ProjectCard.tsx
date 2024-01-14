@@ -6,7 +6,6 @@ import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
 import ImageSlider from "../imageSlider/ImageSlider";
-import YouTube from 'react-youtube';
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 type ProjectCardProps = {
