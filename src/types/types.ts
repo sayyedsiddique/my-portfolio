@@ -22,6 +22,7 @@ export interface IProjects {
   sliderImages: any[]
   deployedUrl: string;
   githubUrl: string;
+  videoUrl: string;
   category: Category[];
   keyTechs: string[];
 }

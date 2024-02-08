@@ -23,6 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     deployedUrl,
     githubUrl,
     // category,
+    videoUrl,
     keyTechs,
     id,
   },
@@ -129,7 +130,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* Video section */}
           <motion.div variants={fadeUpIn}>
-            <VideoPlayer videoUrl="-grXTQyB5ww"/>
+            <VideoPlayer videoUrl={videoUrl}/>
           </motion.div>
 
           <button

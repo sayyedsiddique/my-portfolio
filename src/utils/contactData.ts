@@ -50,7 +50,8 @@ import NotTicToeGameImg from "/public/images/projectImgs/react_tictactoe_game.jp
 import ExpandingCard from "/public/images/projectImgs/ExpandingCard.jpg";
 import ProgrssStep from "/public/images/projectImgs/ProgrssStep.jpg";
 import BlurLoading from "/public/images/projectImgs/BlurLoading.jpg";
-import SplitLandingPage from "/public/images/projectImgs/SplittLandingPage.jpg"; 
+import SplitLandingPage from "/public/images/projectImgs/SplittLandingPage.jpg";
+import HiddenSearchWidget from "/public/images/projectImgs/HiddenSearchWidget.png";
 
 export const services: Iservices[] = [
   {
@@ -140,6 +141,7 @@ export const projects: IProjects[] = [
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "",
+    videoUrl: "",
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons", "Redux"],
   },
@@ -179,6 +181,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
+    videoUrl: "",
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons", "Bootstrap", "Redux"],
   },
@@ -207,6 +210,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
+    videoUrl: "",
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons", "Material UI", "React Query"],
   },
@@ -220,6 +224,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/action_menu_with_dark_mode_react.git",
+    videoUrl: "",
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons"],
   },
@@ -233,6 +238,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/Gifti_global_contact_form_using_html_css",
+    videoUrl: "",
     category: ["css"],
     keyTechs: ["HTML", "CSS"],
   },
@@ -253,12 +259,13 @@ export const projects: IProjects[] = [
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "https://github.com/sayyedsiddique/All-Type-Forms",
+    videoUrl: "",
     category: ["typescript", "react"],
     keyTechs: ["React", "vite", "Material UI"],
   },
   {
     id: 7,
-    name: "React + Vite + Typescript Todo List App",
+    name: "Todo List App React + Vite + Typescript",
     desscription:
       "The React + Vite + TypeScript Todo List App is a modern, lightweight, and efficient task management application built using cutting-edge web technologies. This application provides users with a seamless and intuitive experience for organizing their tasks, ensuring productivity and efficiency in their daily routines.",
     imagePath: `${TodoAppImg}`,
@@ -266,6 +273,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/TypescriptTutorials/tree/512c914f1cefc0334d4ebb11ed5bb5b56ddee62a/TODO_List",
+    videoUrl: "",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -279,6 +287,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/ExpandingCard",
+    videoUrl: "-grXTQyB5ww",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -292,6 +301,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/TypescriptTutorials/tree/main/TicTacToeGame",
+    videoUrl: "",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -305,6 +315,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/ProgressSteps",
+    videoUrl: "",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -318,6 +329,7 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/BlurLoading",
+    videoUrl: "iw_h4FEHKDk",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -331,6 +343,21 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/SplitLandingPage",
+    videoUrl: "",
+    category: ["react", "typescript", "vite"],
+    keyTechs: ["React", "Typescript", "Vite"],
+  },
+  {
+    id: 12,
+    name: "Hidden Search Widget React Project",
+    desscription:
+      "This project harnesses the power of React to create a minimalist search widget that elegantly reveals itself upon user interaction.",
+    imagePath: `${HiddenSearchWidget}`,
+    sliderImages: [{ sliderImg: `${HiddenSearchWidget}` }],
+    deployedUrl: "https://github.com/sayyedsiddique",
+    githubUrl:
+      "https://github.com/sayyedsiddique/fifty-small-project/tree/main/HiddenSearchWidget",
+    videoUrl: "AZjPPCMVUGY?si=J1M128fOojSt3QMj",
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
