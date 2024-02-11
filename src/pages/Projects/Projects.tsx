@@ -11,11 +11,11 @@ const Projects: React.FC = () => {
   const [active, setActive] = useState("all");
   const [showDetails, setshowDetails] = useState<number | null>(null);
 
-  console.log("showDetails... ", showDetails)
+  console.log("showDetails... ", showDetails);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  },[showDetails])
+    window.scrollTo(0, 0);
+  }, [showDetails]);
 
   const filterCategoryHandler = (category: Category | "all") => {
     if (category === "all") {
@@ -31,7 +31,6 @@ const Projects: React.FC = () => {
     setProjects(newArr);
     setActive(category);
   };
-  
 
   return (
     <div className="px-4 py-2 overflow-scroll" style={{ height: "75vh" }}>
@@ -54,7 +53,11 @@ const Projects: React.FC = () => {
                 key={item?.name}
                 className="col-span-12 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
               >
-                <ProjectCard project={item} showDetails={showDetails} setshowDetails={setshowDetails} />
+                <ProjectCard
+                  project={item}
+                  showDetails={showDetails}
+                  setshowDetails={setshowDetails}
+                />
               </motion.div>
             );
           })}
