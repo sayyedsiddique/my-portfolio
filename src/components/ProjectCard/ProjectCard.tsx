@@ -143,7 +143,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           {/* Video section */}
           <motion.div variants={fadeUpIn}>
             {/* <VideoPlayer videoUrl={videoUrl} /> */}
-            <div
+            {/* <div
               className="wistia_responsive_padding"
               style={{ padding: "53.13% 0 0 0", position: "relative" }}
             >
@@ -193,9 +193,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
              {/* <div dangerouslySetInnerHTML={{ __html: createVideo() }} /> */}
-             {/* <div dangerouslySetInnerHTML={{ __html: videoUrl }} /> */}
+             <div dangerouslySetInnerHTML={{ __html: videoUrl }} />
           </motion.div>
 
           <button

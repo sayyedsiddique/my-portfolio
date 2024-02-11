@@ -141,57 +141,7 @@ export const projects: IProjects[] = [
     ],
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl: "",
-    videoUrl: `<div
-    className="wistia_responsive_padding"
-    style={{ padding: "53.13% 0 0 0", position: "relative" }}
-  >
-    <div
-      className="wistia_responsive_wrapper"
-      style={{
-        height: "100%",
-        left: "0",
-        position: "absolute",
-        top: "0",
-        width: "100%",
-      }}
-    >
-      <div
-        className="wistia_embed wistia_async_u6fvgve55y seo=true videoFoam=true"
-        style={{
-          height: "100%",
-          position: "relative",
-          width: "100%",
-        }}
-      >
-        <div
-          className="wistia_swatch"
-          style={{
-            height: "100%",
-            left: "0",
-            opacity: "0",
-            overflow: "hidden",
-            position: "absolute",
-            top: "0",
-            transition: "opacity 200ms",
-            width: "100%",
-          }}
-        >
-          <img
-            src="https://fast.wistia.com/embed/medias/u6fvgve55y/swatch"
-            style={{
-              filter: "blur(5px)",
-              height: "100%",
-              objectFit: "contain",
-              width: "100%",
-            }}
-            alt=""
-            aria-hidden="true"
-            // onload="this.parentNode.style.opacity=1;"
-          />
-        </div>
-      </div>
-    </div>
-  </div>`,
+    videoUrl: ``,
     category: ["react"],
     keyTechs: ["React", "CSS", "React Icons", "Redux"],
   },
@@ -337,7 +287,25 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/ExpandingCard",
-    videoUrl: "-grXTQyB5ww",
+    videoUrl: `<div class="wistia_responsive_padding" style={{ padding: "53.13% 0 0 0", position: "relative" }}>
+      <div class="wistia_responsive_wrapper" style={{ height: "100%", left: "0", position: "absolute", top: "0", width: "100%" }}>
+        <div class="wistia_embed wistia_async_u6fvgve55y seo=true videoFoam=true" style={{ height: "100%", position: "relative", width: "100%" }}>
+          <div class="wistia_swatch" style={{ height: "100%", left: "0", opacity: "0", overflow: "hidden", position: "absolute", top: "0", transition: "opacity 200ms", width: "100%" }}>
+            <iframe
+              src={'https://fast.wistia.net/embed/iframe/u6fvgve55y?videoFoam=true'}
+              allowFullScreen
+              frameBorder="0"
+              scrolling="no"
+              className="wistia_embed"
+              name="wistia_embed"
+              allowTransparency="true"
+              title="Wistia video player"
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
+        </div>
+      </div>
+    </div>`,
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -379,7 +347,15 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/BlurLoading",
-    videoUrl: "iw_h4FEHKDk",
+    videoUrl: `<div class="wistia_responsive_padding" style="padding: 53.13% 0 0 0; position: relative;">
+    <div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;">
+      <div class="wistia_embed wistia_async_k83fod57k0 seo=true videoFoam=true" style="height: 100%; position: relative; width: 100%;">
+        <div class="wistia_swatch" style="height: 100%; left: 0; opacity: 0; overflow: hidden; position: absolute; top: 0; transition: opacity 200ms; width: 100%;">
+          <iframe src="https://fast.wistia.net/embed/iframe/k83fod57k0?videoFoam=true" allowFullScreen frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowTransparency="true" title="Wistia video player" style="width: 100%; height: 100%;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>`,
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
@@ -407,7 +383,15 @@ export const projects: IProjects[] = [
     deployedUrl: "https://github.com/sayyedsiddique",
     githubUrl:
       "https://github.com/sayyedsiddique/fifty-small-project/tree/main/HiddenSearchWidget",
-    videoUrl: "AZjPPCMVUGY?si=J1M128fOojSt3QMj",
+    videoUrl: `<div class="wistia_responsive_padding" style="padding: 53.13% 0 0 0; position: relative;">
+    <div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;">
+      <div class="wistia_embed wistia_async_4792kppltw seo=true videoFoam=true" style="height: 100%; position: relative; width: 100%;">
+        <div class="wistia_swatch" style="height: 100%; left: 0; opacity: 0; overflow: hidden; position: absolute; top: 0; transition: opacity 200ms; width: 100%;">
+          <iframe src="https://fast.wistia.net/embed/iframe/4792kppltw?videoFoam=true" allowFullScreen frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowTransparency="true" title="Wistia video player" style="width: 100%; height: 100%;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>`,
     category: ["react", "typescript", "vite"],
     keyTechs: ["React", "Typescript", "Vite"],
   },
