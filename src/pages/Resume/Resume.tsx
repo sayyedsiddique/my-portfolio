@@ -9,13 +9,13 @@ const Resume: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="px-4 py-2 ">
+    <div className="px-4 py-2 overflow-scroll">
       {/* Education & Exp */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeUpIn} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">{t("resume.education")}</h5>
+          <h5 className="mb-3 text-2xl font-bold">{t("resume.education")} </h5>
           <div>
-            <h5 className="my-2 text-lg font-bold">
+            <h5 className="mb-2 text-lg font-bold leading-tight">
             {t("resume.bca")}
             </h5>
             <p className="font-semibold ">{t("resume.bamu")}</p>
@@ -31,7 +31,7 @@ const Resume: React.FC = () => {
         </motion.div>
 
         <motion.div variants={fadeUpIn} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">{t("resume.experience")}</h5>
+          <h5 className="mb-3 text-2xl font-bold">{t("resume.experience")}</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
             {t("resume.frontendWebDeveloperJr")}

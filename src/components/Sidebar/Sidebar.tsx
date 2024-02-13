@@ -90,6 +90,7 @@ const Sidebar: React.FC = () => {
       >
         {t("sidebar.darkmode")}
       </button>
+      
     </div>
   );
 };
