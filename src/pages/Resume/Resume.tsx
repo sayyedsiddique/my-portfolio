@@ -18,14 +18,14 @@ const Resume: React.FC = () => {
             <h5 className="mb-2 text-lg font-bold leading-tight">
             {t("resume.bca")}
             </h5>
-            <p className="font-semibold ">{t("resume.bamu")}</p>
+            <p className=" ">{t("resume.bamu")}</p>
             {/* Babasaheb Ambedkar Marathwada University */}
             <p className="my-3">
             {t("resume.graduation")}
-              <i className="fa fa-graduation-cap" aria-hidden="true">
+              {/* <i className="fa fa-graduation-cap" aria-hidden="true">
                 graduation
               </i>{" "}
-              (BCA) from Dr. Babasaheb Ambedkar Marathwada University (BAMU)
+              (BCA) from Dr. Babasaheb Ambedkar Marathwada University (BAMU) */}
             </p>
           </div>
         </motion.div>
@@ -33,10 +33,10 @@ const Resume: React.FC = () => {
         <motion.div variants={fadeUpIn} initial="initial" animate="animate">
           <h5 className="mb-3 text-2xl font-bold">{t("resume.experience")}</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">
+            <h5 className=" text-xl font-bold">
             {t("resume.frontendWebDeveloperJr")}
             </h5>
-            <p className="font-semibold ">{t("resume.ezygenTechnology")}</p>
+            <p className=" ">{t("resume.ezygenTechnology")}</p>
             {/* Babasaheb Ambedkar Marathwada University */}
             <p className="my-3">
             {t("resume.industryExperience")}
