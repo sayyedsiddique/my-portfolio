@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { IProjects } from "../../types/types";
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
@@ -6,7 +6,7 @@ import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
 import ImageSlider from "../imageSlider/ImageSlider";
-import VideoPlayer from "../VideoPlayer/VideoPlayer";
+// import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 type ProjectCardProps = {
   project: IProjects;
@@ -36,11 +36,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   console.log("videoUrl ", videoUrl);
 
-  const createVideo = () => {
-    return {
-      __html: videoUrl,
-    };
-  }
+  // const createVideo = () => {
+  //   return {
+  //     __html: videoUrl,
+  //   };
+  // }
+
   return (
     <div>
       <img
