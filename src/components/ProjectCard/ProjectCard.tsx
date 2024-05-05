@@ -5,7 +5,13 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeUpIn, stagger } from "../../animations";
-import ImageSlider from "../imageSlider/ImageSlider";
+// import ImageSlider from "../imageSlider/ImageSlider";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+// import required modules
+import { Navigation } from "swiper/modules";
 // import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 type ProjectCardProps = {
@@ -64,15 +70,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {/* image container */}
             <div className="w-1/2 pr-2">
               {/* images slider */}
-              <motion.div variants={fadeUpIn}>
+              {/* <motion.div variants={fadeUpIn}>
                 <ImageSlider imageArr={sliderImages} />
+              </motion.div> */}
+              <motion.div variants={fadeUpIn}>
+                <Swiper
+                  navigation={true}
+                  modules={[Navigation]}
+                  className="mySwiper"
+                >
+                  {sliderImages &&
+                    sliderImages?.map((item) => {
+                      return (
+                        <SwiperSlide>
+                          <img src={item?.sliderImg} alt="" />
+                        </SwiperSlide>
+                      );
+                    })}
+                </Swiper>
               </motion.div>
-              {/* <img
-                src={imagePath}
-                alt={name}
-                className="cursor-pointer"
-                onClick={() => setshowDetails(id)}
-              /> */}
 
               {/* git and project buttons */}
               <motion.div
@@ -195,8 +211,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 </div>
               </div>
             </div> */}
-             {/* <div dangerouslySetInnerHTML={{ __html: createVideo() }} /> */}
-             <div dangerouslySetInnerHTML={{ __html: videoUrl }} />
+            {/* <div dangerouslySetInnerHTML={{ __html: createVideo() }} /> */}
+            <div dangerouslySetInnerHTML={{ __html: videoUrl }} />
           </motion.div>
 
           <button
